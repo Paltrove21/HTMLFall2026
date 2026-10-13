@@ -6,10 +6,6 @@
     font-family: "FormalTitle";
     src: url("./HalversBlackItalic-G3p5O.ttf");
 }
-@font-face {
-    font-family: "SmoothPart";
-    src: url("./HalversExtraLightItalic-9MLGB.ttf");
-}
 *{
     margin: 0;
 }
@@ -39,7 +35,7 @@ header > nav > menu > li > a:hover{
 }
 
 main{
-    background-color: #f4f4f4;
+    background-color: #e9e9e9;
     padding: 1rem 1rem;
 }
 main > section > div > h2{
@@ -55,6 +51,11 @@ h3{
 p{
     padding: 0.2rem 2rem;
     font-family: Softspoken;
+}
+
+footer{
+    padding: 2rem 1rem;
+    background-color: #e1e1e1;
 }
 
 .count{
