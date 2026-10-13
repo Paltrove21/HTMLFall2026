@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 1rem;
+    background-color: #444444;
+}
+header > h1{
+    color: #780606;
+}
+header > nav > menu{
+    list-style: none;
+    display: flex;
+}
+header > nav > menu > li > a{
+    padding: 0.4rem;
+    text-decoration: none;
+    color: #780606;
+    font-weight: 700;
+}
+header > nav > menu > li > a:hover{
+    text-decoration: underline;
+}
