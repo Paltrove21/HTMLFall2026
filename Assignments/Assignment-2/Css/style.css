@@ -57,10 +57,18 @@ p{
     font-family: Softspoken;
 }
 
-.smooth{
+.count{
     font-style: italic;
     font-size: 0.9rem;
     color: #555555;
+}
+.smooth{
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #90B3E1;
+}
+.bolder{
+    font-size: 1.3rem;
 }
 .deep{
     color: #780606;
