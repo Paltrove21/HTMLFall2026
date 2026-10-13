@@ -56,3 +56,14 @@ p{
     padding: 0.2rem 2rem;
     font-family: Softspoken;
 }
+
+.smooth{
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #555555;
+}
+.deep{
+    color: #780606;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
