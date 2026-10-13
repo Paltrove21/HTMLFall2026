@@ -1,3 +1,4 @@
+/* Custom Fonts */
 @font-face {
     font-family: "SoftSpoken";
     src: url("./SoftspokenSerifFreeDemo-nAza0.otf");
@@ -10,6 +11,7 @@
     margin: 0;
 }
 
+/* Header styles and Nav styles */
 header{
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,7 @@ header > nav > menu > li > a:hover{
     text-decoration: underline;
 }
 
+/* Main formatting and font implemention */
 main{
     background-color: #e9e9e9;
     padding: 1rem 1rem;
@@ -53,11 +56,13 @@ p{
     font-family: Softspoken;
 }
 
+/* Footer Styling */
 footer{
     padding: 2rem 1rem;
     background-color: #e1e1e1;
 }
 
+/* Custom classes for adding emotion */
 .count{
     font-style: italic;
     font-size: 0.9rem;
