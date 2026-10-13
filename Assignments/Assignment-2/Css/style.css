@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "SoftSpoken";
+    src: url("./SoftspokenSerifFreeDemo-nAza0.otf");
+}
+@font-face {
+    font-family: "FormalTitle";
+    src: url("./HalversBlackItalic-G3p5O.ttf");
+}
+@font-face {
+    font-family: "SmoothPart";
+    src: url("./HalversExtraLightItalic-9MLGB.ttf");
+}
 *{
     margin: 0;
 }
@@ -6,10 +18,11 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 2rem 1rem;
-    background-color: #444444;
+    background-color: #e1e1e1;
 }
 header > h1{
     color: #780606;
+    font-family: FormalTitle;
 }
 header > nav > menu{
     list-style: none;
@@ -26,18 +39,20 @@ header > nav > menu > li > a:hover{
 }
 
 main{
-    background-color: #555555;
+    background-color: #f4f4f4;
     padding: 1rem 1rem;
 }
 main > section > div > h2{
     padding: 1rem 0.5rem;
     color: #800020 ;
+    font-family: FormalTitle;
 }
 h3{
     padding: 0.3rem 1rem;
     color: #780606;
+    font-family: FormalTitle;
 }
 p{
-    padding: 0.1rem 2rem;
-    color: #c1bebe;
+    padding: 0.2rem 2rem;
+    font-family: Softspoken;
 }
