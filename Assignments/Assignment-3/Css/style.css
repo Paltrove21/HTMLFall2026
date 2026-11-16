@@ -26,3 +26,15 @@ main{
     background-size: contain;
     height: 100vh;
 }
+main section + section p{
+    font-size: 0.3rem;
+}
+p{
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+.bold{
+    font-weight: 800;
+}
