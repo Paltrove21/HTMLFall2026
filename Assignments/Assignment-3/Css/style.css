@@ -27,21 +27,63 @@ main{
     height: 100vh;
 }
 p{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     color: #f5f5f5;
-    font-size: 1rem;
+    font-size: 0.7rem;
+}
+img{
+    height: 13px;
+    width: auto;
+    padding: 5px;
 }
 main section + section p{
     font-size: 0.2rem;
 }
 
+#title{
+    font-family: "Island";
+}
 #linkTo{
-    font-size: 1rem;
+    font-size: 0.7rem;
+    line-height: 2;
+}
+#flex{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+}
+.jp {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  word-spacing: 10px;
+}
+
+.topText{
+    padding-top: 100px;
+}
+.btmText{
+    margin-top: 375px;
+}
+.moveText{
+    margin: -30px 0;
 }
 
 .bold{
     font-weight: 800;
-}
-.biggerText{
     font-size: 0.3rem;
+    word-spacing: 1px;
+}
+.lightBold{
+    font-weight: 700;
 }
