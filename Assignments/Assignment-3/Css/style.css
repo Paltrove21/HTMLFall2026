@@ -13,7 +13,10 @@ nav menu{
   display: flex;
   gap: 15px;
 }
-nav menu ul a{
+nav menu li{
+  list-style-type: none;
+}
+nav menu li a{
     text-decoration: none;
     color: #0e0e0e;
 }
